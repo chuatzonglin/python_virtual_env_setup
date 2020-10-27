@@ -41,3 +41,12 @@ $ pip install -r requirements.txt
 
 # Note for version control
 Add the virtual environment folder to .gitignore
+
+# Creating virtual environment with access to global packages
+$ python -m venv (new project/directory name) --system-site-packages
+
+# Checking local packages
+$ pip list --local
+
+## Caching the local dependencies using
+$ pip freeze --local > requirements.txt
