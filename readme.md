@@ -38,3 +38,6 @@ $ rm -r (new project/directory name)
 Follow the steps of setting up the virtual environment
 After that use the command
 $ pip install -r requirements.txt
+
+# Note for version control
+Add the virtual environment folder to .gitignore
